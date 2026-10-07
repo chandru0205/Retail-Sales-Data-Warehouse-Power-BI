@@ -1,2 +1,43 @@
-# Retail-Sales-Data-Warehouse-Power-BI
-An end-to-end retail sales analytics project built using the Superstore Dataset (Kaggle), covering the full data pipeline from raw data ingestion to executive dashboard reporting. This project simulates a real-world business intelligence workflow including data warehousing, ETL processing, SQL analysis, and interactive Power BI visualization.
+# Retail Sales Data Warehouse and Executive Dashboard (SQL + Power BI)
+
+An end-to-end retail analytics project: raw Superstore data (Kaggle) is
+cleaned, loaded into a SQL data warehouse, analysed with SQL queries, and
+presented in an interactive Power BI executive dashboard.
+
+## Business problem
+Retail managers need a single view of sales, profit and regional
+performance to decide where to grow and what to fix.
+
+## Workflow
+1. **Data cleaning:** removed duplicates, fixed data types and handled
+   missing values in Python (`data_cleaning.ipynb`)
+2. **Data warehouse:** created tables and loaded cleaned data with SQL
+   (`create_tables.sql`)
+3. **Analysis:** wrote SQL queries for sales, profit and customer
+   insights (`Sales_analysis_queries.sql`)
+4. **Dashboard:** built an executive dashboard in Power BI
+   (`Retail Sales Executive Dashboard.pbix`)
+
+## Dashboard preview
+![Dashboard Page 1](Page1.png)
+![Dashboard Page 2](Page2.png)
+
+## Key insights
+- Total sales: [FILL IN]
+- Total profit: [FILL IN]
+- Best performing region: [FILL IN]
+- Top product category: [FILL IN]
+- Biggest problem area (for example, a loss-making category): [FILL IN]
+
+## Tools used
+Python (pandas), SQL, Power BI, Excel/CSV
+
+## Files
+| File | Purpose |
+|---|---|
+| `superstore_raw.csv.csv` | Original dataset |
+| `cleaned_superstore.csv` | Cleaned dataset |
+| `data_cleaning.ipynb` | Cleaning steps |
+| `create_tables.sql` | Warehouse table creation |
+| `Sales_analysis_queries.sql` | Analysis queries |
+| `Retail Sales Executive Dashboard.pbix` | Power BI dashboard |
