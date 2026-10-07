@@ -23,11 +23,11 @@ performance to decide where to grow and what to fix.
 ![Dashboard Page 2](Page2.png)
 
 ## Key insights
-- Total sales: [FILL IN]
-- Total profit: [FILL IN]
-- Best performing region: [FILL IN]
-- Top product category: [FILL IN]
-- Biggest problem area (for example, a loss-making category): [FILL IN]
+- Total sales: [$2.30M]
+- Total profit: [$286.4K]
+- Best performing region: [West ($0.73M)]
+- Top product category: [Technology (highest profit)]
+- Biggest problem area (for example, a loss-making category): [Furniture (lowest profit of the three categories)]
 
 ## Tools used
 Python (pandas), SQL, Power BI, Excel/CSV
