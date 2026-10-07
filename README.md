@@ -23,11 +23,11 @@ performance to decide where to grow and what to fix.
 ![Dashboard Page 2](Page2.png)
 
 ## Key insights
-- Total sales: [$2.30M]
-- Total profit: [$286.4K]
-- Best performing region: [West ($0.73M)]
-- Top product category: [Technology (highest profit)]
-- Biggest problem area (for example, a loss-making category): [Furniture (lowest profit of the three categories)]
+- Total sales: $2.30M
+- Total profit: $286.4K
+- Best performing region: West ($0.73M)
+- Top product category: Technology (highest profit)
+- Biggest problem area (for example, a loss-making category): Furniture (lowest profit of the three categories)
 
 ## Tools used
 Python (pandas), SQL, Power BI, Excel/CSV
@@ -38,6 +38,6 @@ Python (pandas), SQL, Power BI, Excel/CSV
 | `superstore_raw.csv.csv` | Original dataset |
 | `cleaned_superstore.csv` | Cleaned dataset |
 | `data_cleaning.ipynb` | Cleaning steps |
-| `create_tables.sql` | Warehouse table creation |
+| `sql/create_tables.sql` | Warehouse table creation |
 | `Sales_analysis_queries.sql` | Analysis queries |
 | `Retail Sales Executive Dashboard.pbix` | Power BI dashboard |
