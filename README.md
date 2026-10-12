@@ -9,25 +9,24 @@ Retail managers need a single view of sales, profit and regional
 performance to decide where to grow and what to fix.
 
 ## Workflow
-## Workflow
-
 1. **Data cleaning:** removed duplicates, fixed data types and handled missing values in Python ([`data_cleaning.ipynb`](python/data_cleaning.ipynb))
 2. **Data warehouse:** created tables and loaded cleaned data with SQL ([`create_tables.sql`](sql/create_tables.sql))
 3. **Analysis:** wrote SQL queries for sales, profit and customer insights ([`Sales_analysis_queries.sql`](sql/Sales_analysis_queries.sql))
 4. **Dashboard:** built an executive dashboard in Power BI ([`Retail_Sales_Executive_Dashboard.pbix`](powerbi/Retail_Sales_Executive_Dashboard.pbix))
 
 ## Dashboard preview
-
-## Dashboard preview
 ![Dashboard Page 1](images/dashboard_page1_overview.png)
 ![Dashboard Page 2](images/dashboard_page2_product_analysis.png)
 
 ## Key insights
-- Total sales: $2.30M
-- Total profit: $286.4K
-- Best performing region: West ($0.73M)
-- Top product category: Technology (highest profit)
-- Biggest problem area (for example, a loss-making category): Furniture (lowest profit of the three categories)
+- **Total revenue:** $2.30M, with a total profit of $286.4K (about 12.4% margin)
+- **Units sold:** 38K, with an average order value of $458.61
+- **Top region:** West leads with $0.73M, followed by East ($0.68M). South is lowest at $0.39M.
+- **Top state:** California generates the most revenue ($0.46M), followed by New York ($0.31M).
+- **Top category:** Technology earns the highest profit.
+- **Weakest category:** Furniture has the lowest profit of the three categories despite strong sales.
+- **Top sub-categories by revenue:** Phones ($330K) and Chairs ($328K).
+- **Customers:** 793 total customers.
 
 ## Tools used
 Python (pandas), SQL, Power BI, Excel/CSV
